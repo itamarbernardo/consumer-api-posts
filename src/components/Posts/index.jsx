@@ -14,9 +14,10 @@ export const Posts = ({ posts = [] }) => {
   );
 };
 
-Posts.defaultProps = {
-  posts: [],
-};
+//Não precisa passar, pois ja estamos passando como default la em cima
+// Posts.defaultProps = {
+//   posts: [],
+// };
 
 Posts.propTypes = {
   posts: P.array,
